@@ -13,6 +13,10 @@ public class sel2 {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
         driver.get("https://rahulshettyacademy.com/locatorspractice");
+        System.out.println("1");
+        System.out.println("2");
+        System.out.println("3");
+
         
     }
 }
