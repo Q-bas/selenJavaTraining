@@ -16,10 +16,11 @@ public class sel2 {
         System.out.println("11111");
         
         System.out.println("3");
+        System.out.println("4444");
         System.out.println("3");
         System.out.println("3");
         System.out.println("3");
-        System.out.println("3");
+        driver.get("https://rahulshettyacademy.com/locatorspractice");
 
         
     }
