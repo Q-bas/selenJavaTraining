@@ -30,23 +30,12 @@ public class sel2 {
         Assert.assertEquals(driver.findElement(By.tagName("p")).getText(), "You are successfully logged in.");
         Assert.assertEquals(driver.findElement(By.cssSelector("div[class='login-container'] h2")).getText(), "Hello "+name+",");
         
-<<<<<<< HEAD
-        System.out.println("3");
-        System.out.println("4444");
-        System.out.println("3");
-        System.out.println("3");
-        System.out.println("3");
-        driver.get("https://rahulshettyacademy.com/locatorspractice");
-=======
         //logout
         driver.findElement(By.xpath("//button[text()='Log Out']")).click();
 
         
         //close window
         driver.quit();
->>>>>>> origin/dev
-
-        
     }
 
     public static String getPassword(WebDriver driver) throws InterruptedException{
