@@ -23,7 +23,7 @@ public class sel1 {
         driver.findElement(By.className("submit")).click();
         System.out.println(driver.findElement(By.cssSelector("p.error")).getText());//check error message
         driver.findElement(By.linkText("Forgot your password?")).click();
-       // Thread.sleep(1000); //indus ebanulsa or what. don't know why this shit should be here
+        Thread.sleep(1000); 
         driver.findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("qbus");
         driver.findElement(By.cssSelector("input[placeholder='Email']")).sendKeys("qwerty");
         driver.findElement(By.cssSelector("input[placeholder='Email']")).clear();

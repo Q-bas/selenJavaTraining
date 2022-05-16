@@ -13,13 +13,17 @@ public class sel2 {
         WebDriver driver = new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
+        //get password call
+        String pwd = getPassword(driver);
+
         //open page
         driver.get("https://rahulshettyacademy.com/locatorspractice");
         //login
         String name = "qbus";
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.findElement(By.id("inputUsername")).sendKeys(name);
-        driver.findElement(By.name("inputPassword")).sendKeys("rahulshettyacademy");
+        driver.findElement(By.name("inputPassword")).sendKeys(pwd);
         driver.findElement(By.className("submit")).click();
         Thread.sleep(2000);
         System.out.println(driver.findElement(By.tagName("p")).getText());
@@ -34,5 +38,17 @@ public class sel2 {
         driver.quit();
 
         
+    }
+
+    public static String getPassword(WebDriver driver) throws InterruptedException{
+        driver.get("https://rahulshettyacademy.com/locatorspractice");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.findElement(By.linkText("Forgot your password?")).click();
+        Thread.sleep(1000);
+        driver.findElement(By.cssSelector(".reset-pwd-btn")).click();
+        String pwdTxt = driver.findElement(By.cssSelector("form p")).getText();
+        String[] pwdTxt2 = pwdTxt.split("'");
+        String pwd = pwdTxt2[1].split("'")[0];
+        return pwd;
     }
 }
