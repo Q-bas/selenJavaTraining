@@ -25,9 +25,16 @@ public class DropDown2 {
         }
         
         driver.findElement(By.id("btnclosepaxoption")).click();
-
         System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
 
-        driver.quit();
+        driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
+        driver.findElement(By.xpath("//a[@value='BLR']")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();
+
+
+
+
+        //driver.quit();
     }
 }
