@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 
 public class DropDown3 {
     public static void main(String[] args) throws InterruptedException {
@@ -15,7 +16,8 @@ public class DropDown3 {
 
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 
-        driver.findElement(By.id("autosuggest")).sendKeys("ind");
+
+/*         driver.findElement(By.id("autosuggest")).sendKeys("ind");
         Thread.sleep(2000);
         List<WebElement> options = driver.findElements(By.cssSelector("li[class$='ui-menu-item'] a"));
 
@@ -24,12 +26,14 @@ public class DropDown3 {
                 option.click();
                 break;
             }
-        }
-//click checkbox      
+        } */
+        //check if checkbox is selected
+        Assert.assertFalse(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+
+        //click checkbox      
         driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
-//check if checkbox is selected
-        System.out.println(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
-//count number of checkboxes
+        Assert.assertTrue(driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).isSelected());
+        //count number of checkboxes
         System.out.print(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
 
 
