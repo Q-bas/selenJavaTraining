@@ -44,6 +44,16 @@ public class DropDown2 {
 
         //round-trip turn ON
         driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
+        //check if enabled || not working 100%
+        //Assert.assertTrue(driver.findElement(By.name("ctl00$mainContent$view_date2")).isEnabled());
+
+        //check if enabled - alternative
+        if (driver.findElement(By.id("Div1")).getAttribute("style").contains("1")){
+            Assert.assertTrue(true);
+        }
+        else{
+            Assert.assertTrue(false);
+        }
 
 
         //driver.quit();
