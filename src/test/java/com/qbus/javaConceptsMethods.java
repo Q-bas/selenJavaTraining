@@ -1,14 +1,14 @@
 package com.qbus;
 
-public class javaConceptsMethods {
+public class JavaConceptsMethods {
     public static void main(String[] args) {
-        javaConceptsMethods smthing = new javaConceptsMethods();
+        JavaConceptsMethods smthing = new JavaConceptsMethods();
         String variable = smthing.getData();
         System.out.println(variable);
 
 
 
-        javaConceptMethod2 foo = new javaConceptMethod2();
+        JavaConceptMethod2 foo = new JavaConceptMethod2();
         foo.getUserData();
 
         getData2();

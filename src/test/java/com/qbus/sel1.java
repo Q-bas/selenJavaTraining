@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class sel1 {
+public class Sel1 {
     public static void main(String[] args) throws InterruptedException {
         //invoke browser
        System.setProperty("webdriver.chrome.driver", "/Users/andrew/dev0/files/chromedriver");

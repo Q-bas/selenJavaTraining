@@ -1,6 +1,6 @@
 package com.qbus;
 
-public class javaConcepts {
+public class JavaConcepts {
     public static void main(String[] args) {
         
         // Arrays

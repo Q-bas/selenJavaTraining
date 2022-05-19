@@ -2,7 +2,7 @@ package com.qbus;
 
 import java.util.ArrayList;
 
-public class javaConeptsIfElse {
+public class JavaConeptsIfElse {
     public static void main(String[] args) {
         
         int[] arr3 = {1,2,3,4,5,6,7,8,9,10,888};

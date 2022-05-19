@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 
 
-public class sel2 {
+public class Sel2 {
     public static void main(String[] args) throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "/Users/andrew/dev0/files/chromedriver");
         WebDriver driver = new ChromeDriver();

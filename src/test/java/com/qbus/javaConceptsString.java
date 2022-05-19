@@ -1,6 +1,6 @@
 package com.qbus;
 
-public class javaConceptsString {
+public class JavaConceptsString {
     public static void main(String[] args) {
         
         
