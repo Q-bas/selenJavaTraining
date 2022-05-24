@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch CalendarTst",
+            "request": "launch",
+            "mainClass": "com.qbus.CalendarTst",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Scope1",
+            "request": "launch",
+            "mainClass": "com.qbus.Scope1",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch FramesTest",
+            "request": "launch",
+            "mainClass": "com.qbus.FramesTest",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch HandleTabs",
+            "request": "launch",
+            "mainClass": "com.qbus.HandleTabs",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch ActionsDemo",
+            "request": "launch",
+            "mainClass": "com.qbus.ActionsDemo",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch FluenWait",
+            "request": "launch",
+            "mainClass": "com.qbus.FluenWait",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch EcomCart",
+            "request": "launch",
+            "mainClass": "com.qbus.EcomCart",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alerts",
+            "request": "launch",
+            "mainClass": "com.qbus.Alerts",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DropDown2",
+            "request": "launch",
+            "mainClass": "com.qbus.DropDown2",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch DropDown3",
+            "request": "launch",
+            "mainClass": "com.qbus.DropDown3",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaConcepts",
+            "request": "launch",
+            "mainClass": "com.qbus.JavaConcepts",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaConceptsMethods",
+            "request": "launch",
+            "mainClass": "com.qbus.JavaConceptsMethods",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaConceptsString",
+            "request": "launch",
+            "mainClass": "com.qbus.JavaConceptsString",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaConeptsIfElse",
+            "request": "launch",
+            "mainClass": "com.qbus.JavaConeptsIfElse",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sel1",
+            "request": "launch",
+            "mainClass": "com.qbus.Sel1",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sel2",
+            "request": "launch",
+            "mainClass": "com.qbus.Sel2",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Siblings",
+            "request": "launch",
+            "mainClass": "com.qbus.Siblings",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticDropDown",
+            "request": "launch",
+            "mainClass": "com.qbus.StaticDropDown",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch WindowActivities",
+            "request": "launch",
+            "mainClass": "com.qbus.WindowActivities",
+            "projectName": "demo2"
+        }
+    ]
+}
