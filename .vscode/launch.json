@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch JSExecutorTst",
+            "request": "launch",
+            "mainClass": "com.qbus.JSExecutorTst",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch CalendarTst",
             "request": "launch",
             "mainClass": "com.qbus.CalendarTst",
