@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DeadSslTst",
+            "request": "launch",
+            "mainClass": "com.qbus.DeadSslTst",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch JSExecutorTst",
             "request": "launch",
             "mainClass": "com.qbus.JSExecutorTst",
