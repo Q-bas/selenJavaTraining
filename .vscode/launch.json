@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LinkChkNSoftAssrt",
+            "request": "launch",
+            "mainClass": "com.qbus.LinkChkNSoftAssrt",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
+            "name": "Launch KillProcess",
+            "request": "launch",
+            "mainClass": "com.qbus.KillProcess",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch CookiesNMisc",
             "request": "launch",
             "mainClass": "com.qbus.CookiesNMisc",
