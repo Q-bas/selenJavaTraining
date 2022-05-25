@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CookiesNMisc",
+            "request": "launch",
+            "mainClass": "com.qbus.CookiesNMisc",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch DeadSslTst",
             "request": "launch",
             "mainClass": "com.qbus.DeadSslTst",
