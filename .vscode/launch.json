@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TableSort",
+            "request": "launch",
+            "mainClass": "com.qbus.TableSort",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch LinkChkNSoftAssrt",
             "request": "launch",
             "mainClass": "com.qbus.LinkChkNSoftAssrt",
