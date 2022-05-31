@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FilterTable",
+            "request": "launch",
+            "mainClass": "com.qbus.FilterTable",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch TableSort",
             "request": "launch",
             "mainClass": "com.qbus.TableSort",
