@@ -26,5 +26,16 @@ public class TableSort {
         List<String> sortdList = originalList.stream().sorted().collect(Collectors.toList());
 
         Assert.assertTrue(originalList.equals(sortdList));
+
+        List<String> price = elementList.stream()
+            .filter(s->s.getText().contains("Beans"))
+            .map(s -> getPriceVeggie(s))
+            .collect(Collectors.toList());
+        price.forEach(a->System.out.println(a));
+    }
+
+    private static String getPriceVeggie(WebElement s) {
+        String priceValue = s.findElement(By.xpath("following-sibling::td[1]")).getText();
+        return priceValue;
     }
 }
