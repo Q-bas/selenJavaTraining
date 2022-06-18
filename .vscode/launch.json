@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch InterfaceImplement",
+            "request": "launch",
+            "mainClass": "javaCore.InterfaceImplement",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch FilterTable",
             "request": "launch",
             "mainClass": "com.qbus.FilterTable",
