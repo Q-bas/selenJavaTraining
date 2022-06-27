@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ArraysDemo",
+            "request": "launch",
+            "mainClass": "javaCore.ArraysDemo",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch InterfaceImplement",
             "request": "launch",
             "mainClass": "javaCore.InterfaceImplement",
