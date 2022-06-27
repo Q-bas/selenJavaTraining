@@ -35,14 +35,26 @@ public class ArraysDemo {
         System.out.println(c[1][1]);
 
         //2nd way to declare array
-        int d[][] = {{1,10,100},{2,20,200},{3,30,300}};
+        int d[][] = {{4,10,100},{5,20,200},{3,30,300}};
 
         //print whole array
-        for(int i=0;i<d.length; i++){
-            for(int ii=0;ii<d.length;i++){
-
+        for(int i=0;i<3; i++){
+            for(int ii=0;ii<3;ii++){
+                System.out.println(d[i][ii]);
             }
 
         }
+
+        //find minimal number in matrix
+        int min=d[0][0];
+        for(int i=0;i<3; i++){
+            for(int ii=0;ii<3;ii++){
+                if(d[i][ii]<min){
+                    min=d[i][ii];
+                }
+            }
+        }   
+        System.out.println(min);
     }
+    
 }
