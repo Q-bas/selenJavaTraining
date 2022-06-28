@@ -13,6 +13,11 @@ public class ConstructorDemo {
     public ConstructorDemo(int a, int b){
         System.out.println("Constructor with parameters "+a+" "+b);
     }
+
+    //also paramertized but with another parametr
+    public ConstructorDemo(String c){
+        System.out.println("Constructor "+c);
+    }
     
     //just some method of the class
     public void someMethod(){
@@ -26,5 +31,8 @@ public class ConstructorDemo {
         
         ConstructorDemo cd2=new ConstructorDemo(100,200);
         cd2.someMethod();
+
+        ConstructorDemo cd3=new ConstructorDemo("String");
+        cd3.someMethod();
     }
 }
