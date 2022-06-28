@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ConstructorDemo",
+            "request": "launch",
+            "mainClass": "javaCore.ConstructorDemo",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch CalendarTttrl",
             "request": "launch",
             "mainClass": "javaCore.CalendarTttrl",
