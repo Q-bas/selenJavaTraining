@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ChildKeywordDemo",
+            "request": "launch",
+            "mainClass": "javaCore.ChildKeywordDemo",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch ConstructorDemo",
             "request": "launch",
             "mainClass": "javaCore.ConstructorDemo",
