@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch DateDemo",
+            "request": "launch",
+            "mainClass": "javaCore.DateDemo",
+            "projectName": "demo2"
+        },
+        {
+            "type": "java",
             "name": "Launch Min_max_exrcs",
             "request": "launch",
             "mainClass": "javaCore.Min_max_exrcs",
